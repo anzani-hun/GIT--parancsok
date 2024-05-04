@@ -27,14 +27,42 @@ Megmutatja a munkamenet aktuális állapotát, azaz az új, módosított és tö
 
 ---
 
+A staging area tartalmának mentése a lokális repository-ba egy commit-ként (hozzáadás, módosítás után commitolhatjuk a változást):
 
-hozzáadás, módosítás után commitolhatjuk a változást (a -m lehetővé teszi a kommentelést, üzenet megadását):
-
-`git commit -m <módosításüzenet>`
+`git commit -m <commitüzenet>`
 
 ---
 
-
-A commit után a változásokat a repoba küldhetjük a push paranccsal
+Lokális commit-ok feltöltése a távoli repository-ba.
 
 `git push`
+
+---
+
+A távoli repository-ban lévő változások letöltése és merge-elése a lokális munkamappába.
+
+`git pull`
+
+---
+
+Megjeleníti a lokális branch-ek listáját.
+
+`git branch`
+
+---
+
+Átváltás egy másik branch-re.
+
+`git checkout <branch-name>`
+
+---
+
+Kilistázza az összes távoli repository-t és azok URL-jeit.
+
+`git remote -v`
+
+---
+
+A commit történet megjelenítése.
+
+`git log`
