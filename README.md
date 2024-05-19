@@ -48,6 +48,7 @@ A távoli repository-ban lévő változások letöltése és merge-elése a lok�
 ---
 
 A git branch parancs létrehoz egy új ágat a projektben. Az ág lehetővé teszi, hogy párhuzamosan dolgozhassunk több funkcióval, majd ezeket a változtatásokat a fő ágba egyesítsük.
+
 `git branch`
 
 ---
@@ -67,3 +68,11 @@ Kilistázza az összes távoli repository-t és azok URL-jeit.
 A commit történet megjelenítése.
 
 `git log`
+
+---
+
+Az aktuális munkakönyvtár és commit közötti eltérést (mi változott) mutatja meg.
+
+`git diff`
+
+
