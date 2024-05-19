@@ -1,7 +1,7 @@
 # GITHUB
 
 ##
-Új Git repository létrehozása.
+Új Git repository létrehozása. A git init parancs létrehoz egy új Git repositoryt a jelenlegi mappában.
 
 `git init`
 
@@ -21,20 +21,22 @@ Megmutatja a munkamenet aktuális állapotát, azaz az új, módosított és tö
 ---
 
 
-új fájlok hozzáadása a repohoz:
+új fájlok hozzáadása a repohoz: [A git add parancs hozzáadja a módosított fájlokat a következő commit-hoz. Ezután azok készen állnak a commit-ra.]
 
 `git add <filename.txt>`
 
 ---
 
 A staging area tartalmának mentése a lokális repository-ba egy commit-ként (hozzáadás, módosítás után commitolhatjuk a változást):
+A git commit parancs elmenti a fájlok aktuális állapotát a helyi repositoryba, és hozzárendel egy egyedi azonosítót a változtatásokhoz.
+Ezenkívül lehetőséget ad arra, hogy egy üzenetet is adjunk a commit-hoz, amely részletesen leírja a változtatásokat.
 
 `git commit -m <commitüzenet>`
 
 ---
 
 Lokális commit-ok feltöltése a távoli repository-ba.
-
+A git push parancs feltölti a lokális repository-ban található változtatásokat.
 `git push`
 
 ---
@@ -45,8 +47,7 @@ A távoli repository-ban lévő változások letöltése és merge-elése a lok�
 
 ---
 
-Megjeleníti a lokális branch-ek listáját.
-
+A git branch parancs létrehoz egy új ágat a projektben. Az ág lehetővé teszi, hogy párhuzamosan dolgozhassunk több funkcióval, majd ezeket a változtatásokat a fő ágba egyesítsük.
 `git branch`
 
 ---
